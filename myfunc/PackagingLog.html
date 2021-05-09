@@ -1,0 +1,20 @@
+<html><meta charset="UTF-8"><pre>
+<font color=blue>mcc -W 'dotnet:myfunc,Class1,4.0,private,version=1.0' -T link:lib -d P:\Documents\MatLab\myfunc\for_testing -v class{Class1:P:\Documents\MatLab\myfunc.m} </font>
+Compiler version: 8.1 (R2020b)
+
+Analyzing file dependencies. 
+
+Parsing file "P:\Documents\MatLab\myfunc.m"
+	(referenced from command line).
+Generating file "P:\Documents\MatLab\myfunc\for_testing\Class1Native.cs".
+Generating file "P:\Documents\MatLab\myfunc\for_testing\Class1.cs".
+Generating file "P:\Documents\MatLab\myfunc\for_testing\readme.txt".
+Executing command: C:\Windows\Microsoft.NET\Framework64\v4.0.30319\csc.exe /nologo /optimize /doc:"P:\Documents\MatLab\myfunc\for_testing\myfunc.xml" /t:library /r:"D:\Program Files\Polyspace\R2020b\toolbox\dotnetbuilder\bin\win64\v4.0\MWArray.dll" /resource:"P:\Documents\MatLab\myfunc\for_testing\myfunc.ctf" /define:__IN_MCC /out:"P:\Documents\MatLab\myfunc\for_testing\myfunc.dll" "P:\Documents\MatLab\myfunc\for_testing\Class1.cs" "P:\Documents\MatLab\myfunc\for_testing\myfuncVersion.cs"
+Executing command: C:\Windows\Microsoft.NET\Framework64\v4.0.30319\csc.exe /nologo /optimize /doc:"P:\Documents\MatLab\myfunc\for_testing\myfuncNative.xml" /t:library /r:"D:\Program Files\Polyspace\R2020b\toolbox\dotnetbuilder\bin\win64\v4.0\MWArray.dll" /resource:"P:\Documents\MatLab\myfunc\for_testing\myfunc.ctf" /define:__IN_MCC /out:"P:\Documents\MatLab\myfunc\for_testing\myfuncNative.dll" "P:\Documents\MatLab\myfunc\for_testing\Class1Native.cs" "P:\Documents\MatLab\myfunc\for_testing\myfuncVersion.cs"
+<font color=blue>Packaging...</font>
+Creating the bundle...
+Creating the install agent URL file...
+Web based installer created at P:\Documents\MatLab\myfunc\for_redistribution\MyAppInstaller_web.exe.
+Packaging complete.
+Elapsed packaging time was: 4 seconds.
+</pre></html>
